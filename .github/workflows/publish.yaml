@@ -52,7 +52,7 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add *.json icons/
-          git commit -m "Regenerate Repo" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
+          git commit -m "Update Json" --author="${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>"
       
       - name: Push Changes
         continue-on-error: true
