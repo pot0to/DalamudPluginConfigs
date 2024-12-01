@@ -52,7 +52,7 @@ def create_icon(icon_url, internal_name, is_unofficial):
         #if is_unofficial:
         #    icon.alpha_composite(unofficial_icon)
         icon.save(f"icons/{internal_name}.png")
-    return f"https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/{internal_name}.png"
+    return icon_url
 
 plogons = []
 good_plogons = []
