@@ -1,26 +1,26 @@
 [
     {
         "Author": "Anna, pot0to",
-        "Name": "Tourist",
-        "InternalName": "Tourist",
+        "Name": "Travel Agency",
+        "InternalName": "TravelAgency",
         "AssemblyVersion": "1.2.15.0",
-        "Description": "Automatically collect all sightseeing logs.\n\n\"Requires: vnavmesh, Lifestream\"\n\"Icon: sightseeing by muhammad from the Noun Project\"",
+        "Description": "Automatically collect all sightseeing logs.\n\nRequires: vnavmesh, Lifestream\nIcon: sightseeing by muhammad from the Noun Project",
         "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/pot0to/Tourist",
+        "RepoUrl": "https://github.com/pot0to/TravelAgency",
         "DalamudApiLevel": 11,
         "LoadRequiredState": 0,
         "LoadSync": false,
         "CanUnloadAsync": false,
         "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/Tourist.png",
+        "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/TravelAgency.png",
         "Punchline": "Finish your sightseeing log.",
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1732963314,
+        "LastUpdate": 1733038969,
         "DownloadCount": 0,
-        "DownloadLinkInstall": "https://github.com/pot0to/Tourist/releases/download/v1.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/pot0to/Tourist/releases/download/v1.0.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/pot0to/Tourist/releases/download/v1.0.0/latest.zip"
+        "DownloadLinkInstall": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip"
     }
 ]
