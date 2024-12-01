@@ -47,7 +47,7 @@ def get_official_download_count(internal_name):
 
 #unofficial_icon = Image.open("unofficial.png").convert("RGBA")
 def create_icon(icon_url, internal_name, is_unofficial):
-    with Image.open(requests.get(icon_url, stream=True).raw) as base_icon:
+    with Image.open(requests.get(f"raw.githubusercontent.com/{plugin['username']}/{plugin['repo']}/main/{icon_url}", stream=True).raw) as base_icon:
         icon = base_icon.convert("RGBA").resize((128, 128), Image.Resampling.LANCZOS)
         #if is_unofficial:
         #    icon.alpha_composite(unofficial_icon)
