@@ -25,8 +25,25 @@ jobs:
         with:
           python-version: 'pypy3.10'
 
+      - name: Cache Python Environment
+        uses: actions/cache@v4
+        id: cache-venv
+        with:
+          path: ./.venv/
+          key: ${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-venv-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-venv-
+
+      - name: Install Python Dependencies
+        if: steps.cache-venv.outputs.cache-hit != 'true'
+        shell: bash
+        run: |
+          python -m venv ./.venv
+          source ./.venv/bin/activate
+          python -m pip install -r requirements.txt
       - name: Run Python Script
         run: |
+          source ./.venv/bin/activate
           python publish.py
 
       - name: Commit Files
