@@ -8,15 +8,8 @@ if not os.path.exists("icons"):
 
 print("Loading repo list")
 
-#with open("repos.json", "r") as f:
-#    plugins = json.load(f)
-plugins = [
-    {
-        "username": "pot0to",
-        "repo": "Tourist",
-        "official": False
-    }
-]
+with open("repos.json", "r") as f:
+   plugins = json.load(f)
 
 print("Loading official repo")
 
