@@ -34,14 +34,6 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-venv-
 
-      - name: Install Python Dependencies
-        if: steps.cache-venv.outputs.cache-hit != 'true'
-        shell: bash
-        run: |
-          python -m venv ./.venv
-          source ./.venv/bin/activate
-          python -m pip install -r requirements.txt
-
       - name: Run Python Script
         run: |
           source ./.venv/bin/activate
