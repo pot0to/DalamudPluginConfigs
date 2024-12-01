@@ -12,7 +12,7 @@
         "LoadSync": false,
         "CanUnloadAsync": false,
         "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/WorkingRobot/MyDalamudPlugins/main/icons/TravelAgency.png",
+        "IconUrl": "https://raw.githubusercontent.com/pot0to/TravelAgency/main/icons/icon.png",
         "Punchline": "Finish your sightseeing log.",
         "AcceptsFeedback": true,
         "IsHide": false,
