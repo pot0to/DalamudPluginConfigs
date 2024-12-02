@@ -17,10 +17,10 @@
         "AcceptsFeedback": true,
         "IsHide": false,
         "IsTestingExclusive": false,
-        "LastUpdate": 1733038969,
+        "LastUpdate": 1733120677,
         "DownloadCount": 5,
-        "DownloadLinkInstall": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.0/latest.zip"
+        "DownloadLinkInstall": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/pot0to/TravelAgency/releases/download/v1.0.1/latest.zip"
     }
 ]
